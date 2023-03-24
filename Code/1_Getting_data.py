@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 # Connecting
-url = 'https://en.digimoncard.com/cardlist/?search=true&category=508008'
+url = 'https://world.digimoncard.com/cardlist/?search=true&category=522001'
 Session = HTMLSession()
 response = Session.get(url)
 print(response.status_code)
